@@ -293,6 +293,11 @@ body {
   cursor: pointer;
 }
 
+/* CSS untuk membuat teks paragraf lebih besar */
+.contact p {
+  font-size: 1.4rem; /* Sesuaikan ukuran teks sesuai keinginan Anda */
+}
+
 /* CSS untuk merapikan kolom pesan */
 .contact .input-group,
 .contact #message {
