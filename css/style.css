@@ -228,6 +228,23 @@ body {
 
 .menu .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
+  cursor: pointer;
+}
+
+.menu .row .menu-card .menu-card-description {
+  display: none; /* Sembunyikan deskripsi awalnya */
+}
+
+/* Gaya tombol Beli */
+.buy-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary); /* Warna latar belakang sesuaikan dengan tema Anda */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 /* Contact Section */
@@ -274,6 +291,26 @@ body {
   color: #fff;
   background-color: var(--primary);
   cursor: pointer;
+}
+
+/* CSS untuk merapikan kolom pesan */
+.contact .input-group,
+.contact #message {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact #message {
+  height: 200px; /* Sesuaikan tinggi kolom pesan sesuai kebutuhan Anda */
+  resize: none;
+}
+
+.contact .btn {
+  margin-top: 10px;
+}
+
+.contact .input-group i {
+  margin-right: 10px;
 }
 
 /* Footer */
